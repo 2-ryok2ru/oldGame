@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>十六むさし</title>
+  <link rel="stylesheet" href="old_game.css">
+</head>
+<body>
+  <svg id="svgRange" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">    
+    <rect class="outerShape" x="50" y="50" width="200" height="200" />
+    <polygon class="outerShape" points="150 250, 250 350, 50 350" />
+    <rect class="innerShape" x="142" y="-70" width="140.5" height="140.5"transform="rotate(45)" />
+    <line class="innerLine" x1="100" y1="50" x2="100" y2="250" />
+    <line class="innerLine" x1="150" y1="50" x2="150" y2="350" />
+    <line class="innerLine" x1="50" y1="100" x2="250" y2="100" />
+    <line class="innerLine" x1="200" y1="50" x2="200" y2="250" />
+    <line class="innerLine" x1="50" y1="150" x2="250" y2="150" />
+    <line class="innerLine" x1="50" y1="200" x2="250" y2="200" />
+    <line class="innerLine" x1="50" y1="50" x2="250" y2="250" />
+    <line class="innerLine" x1="250" y1="50" x2="50" y2="250" />
+    <rect class="innerShape" x="100" y="300" width="100" height="50" />
+    <line class="innerLine" x1="200" y1="300" x2="150" y2="350" />
+    <line class="innerLine" x1="100" y1="300" x2="150" y2="350" />
+  </svg>
+  <h4 id="your_turn"></h4>
+  <p id="Caution"></p>
+  <script src="old_game.js"></script>
+</body>
+</html>

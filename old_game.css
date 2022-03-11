@@ -1,0 +1,38 @@
+body{
+  background:#ccc;
+}
+svg {
+  background:#fff;
+}
+.innerLine {
+ stroke: black;
+ stroke-width: 1px;
+}
+.outerShape {
+  stroke: black;
+  fill: #fff;
+  stroke-width: 2px;
+}
+.innerShape {
+  fill: #00000000; /* 透明 */
+  stroke: black;
+  stroke-width: 1px;
+}
+.childStone{
+  fill: #000000;
+  stroke: #00000000; /* 透明 */
+  stroke-width: 10px;
+}
+.hiddenC{
+  fill:#00000000; /* 透明 */
+  stroke: #00000000; 
+  stroke-width: 10px;
+}
+.alysHidden{
+  fill: #00000000; /* 透明 */
+}
+.parentStone{
+  fill: #000000;
+  stroke: #00000000; /* 透明 */
+  stroke-width: 10px;
+}
